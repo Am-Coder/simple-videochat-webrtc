@@ -64,7 +64,7 @@ navigator.mediaDevices.getUserMedia({ video: true, audio: true })
         function SignalAnswer(answer) {
             client.gotAnswer = true
             let peer = client.peer
-            peer.signal(answer)
+            // peer.signal(answer)
         }
 
         function CreateVideo(stream) {
